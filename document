@@ -1,0 +1,66 @@
+S.O.L.I.D. Principles of OOP
+-----------------------------
+
+History of SOLID Principles
+-------------------------
+
+. The SOLID principles date back to March of 1995.
+. The Principles are from Robert "Uncle Bob" Martin.
+. Started as writings, which ultimately were turned into the book "Agile Software Development: Principles,
+  Patterns, and Practices.
+. Michael Feathers is credited with coming up with the SOLID acronym.
+
+Why Use the SOLID Principles of OOP
+------------------------------------
+
+. Object Oriented Programming is the powerful concept.
+. But, OOP does not always lead to quality software.
+. The 5 principles focus on dependency Management.
+. Poor dependency Management leads to code that is brittle, fragile, and hard to change.
+. Proper dependency management leads to quality code that is easy to maintain. 
+
+1. Single Responsibility Principle
+  Just because you can doesn't mean you should. 
+. Every Class should have a single responsibility.
+. There should never be more than one reason for a class to change.
+. Your classes should be small. No more than a screen full of code.
+. Avoid 'god' classes.
+. Split big classes into smaller classes.
+
+2. Open/closed Principle
+ . Your classes should be open for extension.
+ . But close for modification.
+ . you should be able to extend a classes behavior, without modifying it.
+ . Use private variables with getters and setters- ONLY when you need them.
+ . Use abstract base classes
+
+3. LISKOV Substitution principle
+ . Found by Barbara Liskov, in 1998
+ . Objects in a program would be replaceable with instance of their subtype WITHOUT altering the 
+   correctness of the program.
+ . Violations will often fail the "Is  a" test.
+ . A Square "Is a" Rectangle.
+ . However, a Rectangle "Is Not" a Square. 
+
+4. Interface Segregation Principle. 
+ . Make fine grained interfaces that are client specific. 
+ . Many client specific interface are better than one "general  purpose" Interface.
+ . keep your component focused and minimize dependency between them.
+ . Notice relationship  to the single Responsiblity Principle.
+  . ie avoid "god" interface.
+  
+5. Dependency Inversion Principle.
+   would you solder a lamp directly to the electrical wiring in wall?
+ . Abstraction should not depend upon details.
+ . Details should not depend upon abstraction.
+ . Important that higher level and lower level objects depend on the same abstract interaction.
+ . This is not the same as Dependency Injection - Which is how objects obtain dependency objects.
+ 
+ 			Summary
+ 	   ----------------
+ The SOLID principles of OOP will lead you to better quality code.
+ Your code will be more testable and easier to maintain.
+ A key theme is avoiding tight coupling in your code. 
+ 
+
+. 
